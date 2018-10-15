@@ -1,6 +1,6 @@
 install: install-deps
 
-develop:
+dev:
 	npm run webpack-dev-server
 
 install-deps:
@@ -9,9 +9,6 @@ install-deps:
 build:
 	rm -rf dist
 	NODE_ENV=production npm run webpack
-
-test:
-	npm test
 
 lint:
 	npm run eslint .
