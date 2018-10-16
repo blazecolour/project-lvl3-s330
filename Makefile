@@ -1,10 +1,7 @@
-install: install-deps
+install: npm install
 
 dev:
 	npm run webpack-dev-server
-
-install-deps:
-	npm install
 
 build:
 	rm -rf dist
@@ -12,8 +9,3 @@ build:
 
 lint:
 	npm run eslint .
-
-publish:
-	npm publish
-
-.PHONY: test
