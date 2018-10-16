@@ -8,4 +8,4 @@ build:
 	NODE_ENV=production npm run webpack
 
 lint:
-	npm run eslint .
+	npm run eslint src
