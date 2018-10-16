@@ -4,4 +4,4 @@
 
 ### RSS Reader
 
-demo: http://daily-chance.surge.sh/
+demo: http://cute-stone.surge.sh/
